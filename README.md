@@ -14,8 +14,7 @@ Lenskart wanted to understand what's driving (or holding back) customer acquisit
 ## 🛠️ Tools & Tech Stack
 - **SQL** — data extraction and business-question queries
 - **Python** — data cleaning and exploratory analysis
-- **Excel** — reporting
-- *(Power BI dashboard — if you're adding this, list it here)*
+- **Power BI dashboard**
 
 ## 🔑 Key Insights
 > ⚠️ Fill in with your actual numbers/findings — this is the section recruiters read first.
