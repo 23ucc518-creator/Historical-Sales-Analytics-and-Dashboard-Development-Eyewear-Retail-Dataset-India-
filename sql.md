@@ -13,10 +13,27 @@ The dataset was imported from CSV into MySQL Workbench, where the 4 tables below
  
 **Schema:** `orders_normalized` is the central fact table, linked to `customers`, `products`, and `locations` via foreign keys (`customer_id`, `product_id`, `location_id`).
 
-**Screenshot of table structure / sample rows:**
+**Screenshot of table structure :**
 
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/90d5e4f7-355e-4dc6-8f84-0848f9380338" />
 
+
+## ⚠️ A Note on `customer_id`
+ 
+The `customers` table wasn't built from real customer identities — it was formed by pulling the **distinct combinations** of `customer_gender` and `customer_age` already present in the orders data:
+ 
+```sql
+INSERT INTO customers (customer_gender, customer_age)
+SELECT DISTINCT customer_gender, customer_age FROM orders;
+```
+ 
+So `customer_id` here is really a stand-in for a **demographic combination** (e.g. "Female, age 36"), not a unique person. Every order from *any* 36-year-old female customer maps to the *same* `customer_id`, even if they were different people who never interacted.
+ 
+**Why this matters:**
+- ✅ **Fine to use for:** demographic questions — e.g. Q5 (customer segment value) and Q6 in the Python notebook (clustering) are still valid, since that's genuinely what's being measured.
+- ❌ **Not valid for:** anything implying individual customer behavior — repeat purchase rate, customer lifetime value, or cohort/retention analysis. The dataset doesn't track a real customer across multiple orders, so those questions can't be answered from this data.
+
+  
 
 ## 🔎 Analysis Queries
 
