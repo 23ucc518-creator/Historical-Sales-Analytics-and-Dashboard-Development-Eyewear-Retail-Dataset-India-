@@ -32,5 +32,5 @@ An interactive Power BI dashboard summarizing Lenskart's India sales performance
 - **The 2023 dip and recovery** visible in the yearly trend line matches the SQL yearly-growth analysis (Q7), giving the same story in visual form.
 
 ## File
-- `dashboard.pbix` — the Power BI file (open in Power BI Desktop to interact with filters)
-- `screenshots/dashboard_overview.png` — static preview for anyone without Power BI installed
+- `Lenskart_Sales_Dashboard.pbix` — the Power BI file (open in Power BI Desktop to interact with filters)
+
