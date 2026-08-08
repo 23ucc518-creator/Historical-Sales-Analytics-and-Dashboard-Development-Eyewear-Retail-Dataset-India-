@@ -9,27 +9,26 @@ Lenskart wanted to understand what's driving (or holding back) customer acquisit
 ## 🗂️ Dataset
 - **Source:** [https://www.kaggle.com/datasets/datamonkresearch/lenskart-india-sales-and-customer-analytics-dataset]
 - **Tables/Files:** `orders_normalized` (fact table), `customers`, `products`, `locations`
-- **Size:** 4,108 orders, spanning 2022–2025
+-  spanning 2022–2025
 
 ## 🛠️ Tools & Tech Stack
-- **SQL** — data extraction and business-question queries
-- **Python** — data cleaning and exploratory analysis
-- **Power BI dashboard**
+- **SQL** (MySQL Workbench) — data extraction and business-question queries
+- **Python** (Pandas, Matplotlib/Seaborn, SciPy, scikit-learn, statsmodels) — EDA, statistical testing, clustering, regression, and forecasting
+- **Power BI** — interactive sales performance dashboard
 
 ## 🔑 Key Insights
-> ⚠️ Fill in with your actual numbers/findings — this is the section recruiters read first.
-- [e.g. "X% of customers are repeat buyers, concentrated in Y region"]
-- [e.g. "Category Z shows highest growth but lowest margin"]
-- [Recommendation based on the above]
+- **Discounting isn't growing basket size, it's eroding margin** — quantity per order stays flat (~2 items) at every discount level, while average order value drops from ₹5,827 (0% discount) to ₹4,385 (25% discount).
+- **Growth is real but decelerating** — YoY growth slowed from 3.89% (2024) to 1.43% (2025), with a linear forecast projecting 2026 revenue to nearly flatten.
+- **Today's biggest markets aren't tomorrow's fastest-growing ones** — Maharashtra leads in current revenue, but Bihar (+46.3%) and Chandigarh (+38.5%) are growing far faster and warrant more investment.
 
 ## 📁 Repository Structure
 ```
 ├── README.md
 ├── sql/
-│   └── sql.md          # Queries + explanations + answers
+│   └── sql.md                            # Queries + explanations + answers
 ├── notebooks/
 │   └── Lenskart_Data_Analysis.ipynb       # Python EDA, plots, findings
-├── powerbi/                 # if applicable
+├── powerbi/                              # if applicable
 │   ├── Lenskart_Data_Dashboard.pbix
 │   
 ```
