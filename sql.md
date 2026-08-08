@@ -15,7 +15,8 @@ The dataset was imported from CSV into MySQL Workbench, where the 4 tables below
 
 **Screenshot of table structure / sample rows:**
 
-[📸 Attach table view screenshot here]
+<img width="1007" height="891" alt="image" src="https://github.com/user-attachments/assets/90d5e4f7-355e-4dc6-8f84-0848f9380338" />
+
 
 ## 🔎 Analysis Queries
 
