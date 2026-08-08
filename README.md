@@ -1,7 +1,7 @@
 # Lenskart Growth and Sales Analytics
 
 ## 📌 Overview
-A data analytics case study analyzing Lenskart's customer and sales data to identify growth trends and opportunities, completed as part of a Growth Analyst internship. The project covers data cleaning, exploratory analysis, and reporting to support business decisions on customer acquisition and retention.
+A data analytics case study analyzing Lenskart's customer and sales data to identify growth trends and opportunities. The project covers data cleaning, exploratory analysis, and reporting to support business decisions on customer acquisition and retention.
 
 ## 🎯 Business Problem
 Lenskart wanted to understand what's driving (or holding back) customer acquisition and retention, and to surface growth opportunities in their sales data that could support business decision-making.
@@ -35,8 +35,10 @@ Lenskart wanted to understand what's driving (or holding back) customer acquisit
 │   └── screenshots/
 ```
 
-## 📊 Dashboard / Report Preview
-[Screenshot of Excel report or Power BI dashboard, once added]
+## 📊 Dashboard Preview
+<img width="1181" height="663" alt="image" src="https://github.com/user-attachments/assets/62d36f58-053d-4e1a-b433-12d00d75c66a" />
+
+
 
 ## 👤 Author
 Arjav Jain — Growth Analyst Intern
