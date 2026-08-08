@@ -26,12 +26,12 @@ Lenskart wanted to understand what's driving (or holding back) customer acquisit
 ```
 ├── README.md
 ├── sql/
-│   └── analysis.md          # Queries + explanations + answers
+│   └── sql.md          # Queries + explanations + answers
 ├── notebooks/
-│   └── analysis.ipynb       # Python EDA, plots, findings
+│   └── Lenskart_Data_Analysis.ipynb       # Python EDA, plots, findings
 ├── powerbi/                 # if applicable
-│   ├── dashboard.pbix
-│   └── screenshots/
+│   ├── Lenskart_Data_Dashboard.pbix
+│   
 ```
 
 ## 📊 Dashboard Preview
