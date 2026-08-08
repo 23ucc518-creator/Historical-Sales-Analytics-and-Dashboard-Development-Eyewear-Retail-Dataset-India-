@@ -41,4 +41,4 @@ Lenskart wanted to understand what's driving (or holding back) customer acquisit
 
 
 ## 👤 Author
-Arjav Jain — Growth Analyst Intern
+Arjav Jain
