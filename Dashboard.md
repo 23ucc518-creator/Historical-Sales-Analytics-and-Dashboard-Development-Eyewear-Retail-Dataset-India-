@@ -8,7 +8,6 @@ An interactive Power BI dashboard summarizing Lenskart's India sales performance
 
 ## Dashboard Preview
 
-![Lenskart Sales Dashboard]
 
 <img width="700" height="400" alt="Screenshot 2026-08-08 154507" src="https://github.com/user-attachments/assets/f3a7dd86-5335-4658-9eef-112a1218ca62" />
 
