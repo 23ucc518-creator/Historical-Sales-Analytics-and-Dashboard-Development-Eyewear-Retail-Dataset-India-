@@ -8,8 +8,8 @@ Lenskart wanted to understand what's driving (or holding back) customer acquisit
 
 ## 🗂️ Dataset
 - **Source:** [https://www.kaggle.com/datasets/datamonkresearch/lenskart-india-sales-and-customer-analytics-dataset]
-- **Tables/Files:** [list actual table names, e.g. `orders`, `customers`, `stores`, `products`]
-- **Size:** [rows/columns or time period covered]
+- **Tables/Files:** `orders_normalized` (fact table), `customers`, `products`, `locations`
+- **Size:** 4,108 orders, spanning 2022–2025
 
 ## 🛠️ Tools & Tech Stack
 - **SQL** — data extraction and business-question queries
