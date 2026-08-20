@@ -1,10 +1,11 @@
-# Lenskart Growth and Sales Analytics
+# Historical Sales Analytics and Dashboard Development-(Lenskart)
+Uses a publicly available Kaggle dataset modeled on Lenskart's sales and customer data — not proprietary company data.
 
 ## 📌 Overview
-A data analytics case study analyzing Lenskart's customer and sales data to identify growth trends and opportunities. The project covers data cleaning, exploratory analysis, and reporting to support business decisions on customer acquisition and retention.
+A data analytics case study using a public eyewear retail dataset (India) modeled on Lenskart-style sales and customer data, exploring growth trends and business opportunities. The project covers schema design, exploratory analysis, statistical validation, and dashboard reporting to simulate real-world decision support around customer acquisition and retention.
 
 ## 🎯 Business Problem
-Lenskart wanted to understand what's driving (or holding back) customer acquisition and retention, and to surface growth opportunities in their sales data that could support business decision-making.
+Framed as a real-world business scenario: an eyewear retailer wants to understand what's driving (or holding back) customer acquisition and retention, and to surface growth opportunities in its sales data to support decision-making.
 
 ## 🗂️ Dataset
 - **Source:** [https://www.kaggle.com/datasets/datamonkresearch/lenskart-india-sales-and-customer-analytics-dataset]
